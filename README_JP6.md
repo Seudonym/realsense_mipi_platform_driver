@@ -33,7 +33,7 @@ sudo apt-get install -y build-essential bc wget flex bison curl libssl-dev xxd
 ```
 ## Build NVIDIA® kernel drivers, dtb and D457 driver - cross compile x86-64
 
-1. Clone [realsense_mipi_platform_driver](https://github.com/IntelRealSense/realsense_mipi_platform_driver.git) repo.
+1. Clone [realsense_mipi_platform_driver](https://github.com/IntelRealSense/realsense_mipi_platform_driver.git) repo and switch to the `dev` branch.
 2. The developers can set up build environment, ARM64 compiler, kernel sources and NVIDIA's Jetson git repositories by using the setup script.
 3. Apply patches for kernel drivers, nvidia-oot module and tegra devicetree.
 4. Build cross-compile project on host (Build PC).
