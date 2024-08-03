@@ -43,6 +43,7 @@ sudo apt-get install -y build-essential bc wget flex bison curl libssl-dev xxd
 ```
 git clone https://github.com/IntelRealSense/realsense_mipi_platform_driver.git
 cd realsense_mipi_platform_driver
+git checkout dev
 ./setup_workspace.sh 6.0
 ./apply_patches.sh apply 6.0
 ./build_all.sh 6.0
